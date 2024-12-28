@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+    font-family:font1;
+    src: url("./ppmori.ttf");
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+#line::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10%;
+    background-color: rgb(222, 222, 222);
+    height: 1px;
+    width: 100%;
+}
+
+/* #hoverDiv:hover h1{
+    transform: translateY(-100%);
+    color: #EDBFFF;
+} */
